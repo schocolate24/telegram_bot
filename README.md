@@ -12,7 +12,7 @@ I wrote it in Python for the automation process, then I edited the cron job to r
    
 -> You'll need your own Telegram Bot Token and chat ID.
 
-3. Edit the cron job to get it executed initially.
+3. Edit the cron job to execute it initially.
    
    "crontab -e"
    
