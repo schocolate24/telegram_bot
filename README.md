@@ -10,13 +10,13 @@ I wrote it in Python for the automation process, then I edited the cron job to r
    
 2. Write the automation script in Python and keep it in your Raspberry Pi.
    
--> You'll need your own Telegram Bot Token and chat ID.
+   -> You'll need your own Telegram Bot Token and chat ID.
 
 3. Edit the cron job to execute it initially.
    
    "crontab -e"
    
--> In the last line, write "@reboot /usr/bin/python3 /path_to_your_script"
+   -> In the last line, write "@reboot /usr/bin/python3 /path_to_your_script"
 
 4. Execute the script to check if it works as expected.
 
